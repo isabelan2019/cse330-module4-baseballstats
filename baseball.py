@@ -63,4 +63,3 @@ sortedBatAvg=sorted(unsortedBatAvg,key=lambda x:x[1], reverse=True)
 for each in sortedBatAvg:
     print(each[0], ":", '{:.3f}'.format(round(each[1],3)))
 
-
