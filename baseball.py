@@ -12,7 +12,7 @@ if not os.path.exists(filepath):
     sys.exit(f"Error: Filepath '{sys.argv[1]}' not found")
 
 #regular expression match
-regex = re.compile(r"(?P<name>[A-Za-z]* [A-Za-z]*) batted (?P<atBats>\d*) times with (?P<hits>\d*) hits")
+regex = re.compile(r"(?P<name>[\w']* [\w']*) batted (?P<atBats>\d*) times with (?P<hits>\d*) hits")
 
 
 #create dictionary
