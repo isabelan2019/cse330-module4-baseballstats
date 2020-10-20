@@ -57,9 +57,11 @@ for key in playersBattingAvg.keys():
 unsortedBatAvg=playersBattingAvg.items()  
 
 #sorted by batting avg (high to low before rounding)
+#https://careerkarma.com/blog/python-sort-a-dictionary-by-value/
 sortedBatAvg=sorted(unsortedBatAvg,key=lambda x:x[1], reverse=True)
 
 #rounded to three decimal places
+#https://careerkarma.com/blog/python-sort-a-dictionary-by-value/
 for each in sortedBatAvg:
     print(each[0], ":", '{:.3f}'.format(round(each[1],3)))
-
+#end of citation - two lines from site on how to sort a dict by value 
