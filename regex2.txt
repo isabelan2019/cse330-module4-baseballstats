@@ -1,1 +1,1 @@
-\w*[aAeEiIoOuU]{3}[A-Za-z]\w*
+\w*[aAeEiIoOuU]{3}\w*
